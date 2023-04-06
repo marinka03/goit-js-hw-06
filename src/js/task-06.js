@@ -5,10 +5,10 @@ input.addEventListener("blur", checkSymbol);
     const length = evt.currentTarget.dataset.length;
     const el = evt.currentTarget;
     if(el.value.length < length){
-        el.classList.add("input-error");
-        el.classList.remove("input-success");
+        el.classList.add("invalid");
+        el.classList.remove("valid");
     } else {
-        el.classList.add("input-success");
-        el.classList.remove("input-error");
+        el.classList.add("valid");
+        el.classList.remove("invalid");
     }
  }
