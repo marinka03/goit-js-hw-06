@@ -33,3 +33,9 @@ li {
   justify-content: center;
   gap: 15px;
 }
+.input-error {
+  border-color: red!important;
+}
+.input-success {
+  border-color: green!important;
+}
