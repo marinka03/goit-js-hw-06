@@ -9,7 +9,7 @@ function dataSending(evt) {
   if (email.value && password.value) {
     result[email.attributes.name.value] = email.value;
     result[password.attributes.name.value] = password.value;
-    console.dir(result);
+    console.log(result);
   } else {
     alert("Всі поля повинні бути заповнені!");
   }

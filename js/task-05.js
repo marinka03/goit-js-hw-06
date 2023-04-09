@@ -4,7 +4,7 @@ input.addEventListener("input", changeName);
 
 function changeName(evt) {
   if (!evt.currentTarget.value) {
-    return (span.textContent = "Anonymous");
+    return span.textContent = "Anonymous";
   }
-  return (span.textContent = evt.currentTarget.value);
+  return span.textContent = evt.currentTarget.value.trim();
 }

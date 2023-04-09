@@ -4,7 +4,7 @@ function getRandomHexColor() {
     .padStart(6, 0)}`;
 }
 
-const controls = document.querySelector("controls");
+const controls = document.querySelector("#controls");
 const boxes = document.querySelector("#boxes");
 
 const createBtn = document.querySelector("[data-create]");
